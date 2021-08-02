@@ -1,0 +1,74 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/dennisnyabuti/Documents/Dev/unity/ProjectBoost
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60021
+Successfully changed project path to: /Users/dennisnyabuti/Documents/Dev/unity/ProjectBoost
+/Users/dennisnyabuti/Documents/Dev/unity/ProjectBoost
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 74.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/dennisnyabuti/Documents/Dev/unity/ProjectBoost/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-08-02 10:46:36.565 Unity[22786:2985584] (null) preferred device: Apple M1 (high power)
+2021-08-02 10:46:36.565 Unity[22786:2985584] Metal devices available: 1
+2021-08-02 10:46:36.565 Unity[22786:2985584] 0: Apple M1 (high power)
+2021-08-02 10:46:36.565 Unity[22786:2985584] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56786
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002633 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.167 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.1.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2686 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.3 MB.
+System memory in use after: 179.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 1.932334 ms (FindLiveObjects: 0.180209 ms CreateObjectMapping: 0.066000 ms MarkObjects: 1.591458 ms  DeleteObjects: 0.093834 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Script/CollisionHandler.cs
+  artifactKey: Guid(8c832e0b998dc472896daaef055b90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CollisionHandler.cs using Guid(8c832e0b998dc472896daaef055b90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc0a983a8a772db8fea79c838bd10cf') in 0.274965 seconds 
