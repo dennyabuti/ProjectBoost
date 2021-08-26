@@ -784,6 +784,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7023312763000903532, guid: 648d97c2a99104509a2bf67f2f0cdd02, type: 3}
   m_PrefabInstance: {fileID: 7023312762632660471}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &824390948 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2485578300175253474, guid: de1689b87b6ba4213bbe6899845558d9, type: 3}
+  m_PrefabInstance: {fileID: 2816396630519001865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &930435844 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8974849916715423253, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
@@ -1208,6 +1213,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8974849916715423253, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
   m_PrefabInstance: {fileID: 1272712229}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1374190609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6259192284530478146, guid: de1689b87b6ba4213bbe6899845558d9, type: 3}
+  m_PrefabInstance: {fileID: 2816396630519001865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1374190617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374190609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d94a166c29314464886ed5547de4145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+  hasUpgradedFromAgentParameters: 1
+  MaxStep: 5000
+  mainThrust: 1000
+  rotationThrust: 100
+  mainEngine: {fileID: 8300000, guid: 9e0f1d8a30a5d4798a27af1388ecc4f7, type: 3}
+  mainBoosterEffect: {fileID: 1980190987}
+  leftBoosterEffect: {fileID: 1958838573}
+  rightBoosterEffect: {fileID: 824390948}
+  useVecObs: 1
+--- !u!114 &1374190618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374190609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    VectorObservationSize: 38
+    NumStackedVectorObservations: 1
+    m_ActionSpec:
+      m_NumContinuousActions: 1
+      BranchSizes: 02000000
+    VectorActionSize: 
+    VectorActionDescriptions: []
+    VectorActionSpaceType: 0
+    hasUpgradedBrainParametersWithActionSpec: 1
+  m_Model: {fileID: 5022602860645237092, guid: 3345703db95694742be555c8feed6f59, type: 3}
+  m_InferenceDevice: 2
+  m_BehaviorType: 0
+  m_BehaviorName: ProjectBoost
+  TeamId: 0
+  m_UseChildSensors: 1
+  m_UseChildActuators: 1
+  m_ObservableAttributeHandling: 0
+--- !u!114 &1374190619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374190609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DecisionPeriod: 5
+  TakeActionsBetweenDecisions: 1
 --- !u!1001 &1615054286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1456,6 +1533,16 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8974849916715423253, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
   m_PrefabInstance: {fileID: 308425010}
   m_PrefabAsset: {fileID: 0}
+--- !u!198 &1958838573 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8414578219850179357, guid: de1689b87b6ba4213bbe6899845558d9, type: 3}
+  m_PrefabInstance: {fileID: 2816396630519001865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1980190987 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7851177808310113916, guid: de1689b87b6ba4213bbe6899845558d9, type: 3}
+  m_PrefabInstance: {fileID: 2816396630519001865}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2041706762 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8974849916715423253, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
@@ -1675,6 +1762,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2816396630485426205, guid: de1689b87b6ba4213bbe6899845558d9, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4463447242723462712, guid: de1689b87b6ba4213bbe6899845558d9, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1849,6 +1940,10 @@ PrefabInstance:
     - target: {fileID: 2615463027991899419, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 2615463027991899419, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8974849916715423253, guid: b36c7a47e36a54539938c52d70094b84, type: 3}
       propertyPath: m_RootOrder

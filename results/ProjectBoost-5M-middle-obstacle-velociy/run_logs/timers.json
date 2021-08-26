@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1629846147",
+        "python_version": "3.8.2 (default, Jun  8 2021, 11:59:35) \n[Clang 12.0.5 (clang-1205.0.22.11)]",
+        "command_line_arguments": "/Users/dennisnyabuti/Documents/Dev/Unity/external-repos/mlagents_env/bin/mlagents-learn config/ppo/ProjectBoost.yaml --run-id=ProjectBoost-5M-middle-obstacle-velociy --force",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.1",
+        "end_time_seconds": "1629846179"
+    },
+    "total": 32.079687435,
+    "count": 1,
+    "self": 0.006122664000002942,
+    "children": {
+        "run_training.setup": {
+            "total": 0.048658459999999515,
+            "count": 1,
+            "self": 0.048658459999999515
+        },
+        "TrainerController.start_learning": {
+            "total": 32.024906310999995,
+            "count": 1,
+            "self": 0.0003948929999921802,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 32.024496372,
+                    "count": 1,
+                    "self": 32.024496372
+                },
+                "trainer_threads": {
+                    "total": 1.2960000006501105e-06,
+                    "count": 1,
+                    "self": 1.2960000006501105e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.3750000000811724e-05,
+                    "count": 1,
+                    "self": 1.3750000000811724e-05
+                }
+            }
+        }
+    }
+}

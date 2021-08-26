@@ -1,0 +1,65 @@
+{
+    "ProjectBoost": {
+        "checkpoints": [
+            {
+                "steps": 3499866,
+                "file_path": "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-3499866.onnx",
+                "reward": 20.587541229584637,
+                "creation_time": 1629911353.600777,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-3499866.pt"
+                ]
+            },
+            {
+                "steps": 3999895,
+                "file_path": "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-3999895.onnx",
+                "reward": 16.100134154160816,
+                "creation_time": 1629911702.69342,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-3999895.pt"
+                ]
+            },
+            {
+                "steps": 4499996,
+                "file_path": "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-4499996.onnx",
+                "reward": 42.19126238141741,
+                "creation_time": 1629912057.018052,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-4499996.pt"
+                ]
+            },
+            {
+                "steps": 4999324,
+                "file_path": "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-4999324.onnx",
+                "reward": 30.92981634378433,
+                "creation_time": 1629912404.919286,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-4999324.pt"
+                ]
+            },
+            {
+                "steps": 5000309,
+                "file_path": "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-5000309.onnx",
+                "reward": 33.4715923002133,
+                "creation_time": 1629912405.033865,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-5000309.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000309,
+            "file_path": "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost.onnx",
+            "reward": 33.4715923002133,
+            "creation_time": 1629912405.033865,
+            "auxillary_file_paths": [
+                "results/ProjectBoost-5M-middle-obstacle-variation/ProjectBoost/ProjectBoost-5000309.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

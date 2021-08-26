@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1629408721",
+        "python_version": "3.8.2 (default, Jun  8 2021, 11:59:35) \n[Clang 12.0.5 (clang-1205.0.22.11)]",
+        "command_line_arguments": "/Users/dennisnyabuti/Documents/Dev/Unity/external-repos/mlagents_env/bin/mlagents-learn config/ppo/ProjectBoost.yaml --run-id=test1",
+        "mlagents_version": "0.27.0",
+        "mlagents_envs_version": "0.27.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.1",
+        "end_time_seconds": "1629408724"
+    },
+    "total": 2.427570182,
+    "count": 1,
+    "self": 0.008265087000000282,
+    "children": {
+        "run_training.setup": {
+            "total": 0.05068813799999994,
+            "count": 1,
+            "self": 0.05068813799999994
+        },
+        "TrainerController.start_learning": {
+            "total": 2.368616957,
+            "count": 1,
+            "self": 0.0006024490000000604,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 2.367980824,
+                    "count": 1,
+                    "self": 2.367980824
+                },
+                "trainer_threads": {
+                    "total": 1.1429999999812424e-06,
+                    "count": 1,
+                    "self": 1.1429999999812424e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 3.254099999994153e-05,
+                    "count": 1,
+                    "self": 3.254099999994153e-05
+                }
+            }
+        }
+    }
+}

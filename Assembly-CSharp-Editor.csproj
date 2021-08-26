@@ -280,20 +280,50 @@
     <Reference Include="UnityEditor.OSXStandalone.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2021.1.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="System.IO.Abstractions">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/System.IO.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
         <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.burst@1.5.4/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.burst@1.5.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.barracuda@2.0.0-pre.3/Barracuda/Runtime/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
         <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.burst@1.5.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.burst@1.5.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
         <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.burst@1.5.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
         <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Abstractions.TestingHelpers">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Interactive.Async">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Grpc.Core">
+        <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.ml-agents@2.1.0-exp.1/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/Users/dennisnyabuti/Documents/Dev/Unity/ProjectBoost/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
@@ -666,13 +696,33 @@
       <Project>{d7725a52-a7a1-b7bf-89ad-6ef26a21d8e6}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.csproj">
+      <Project>{6a63ec61-deb1-a10c-f163-16cc001a4893}</Project>
+      <Name>Unity.ML-Agents</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
       <Project>{b5a324a3-70dc-ef15-f241-3b1bafa49dc1}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.iOSBLAS.csproj">
+      <Project>{82a11634-6396-bc7e-a707-253145051b6f}</Project>
+      <Name>Unity.Barracuda.iOSBLAS</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.Extensions.Editor.Input.csproj">
+      <Project>{cb9e6de2-e71f-3182-4936-94e9bb405d39}</Project>
+      <Name>Unity.ML-Agents.Extensions.Editor.Input</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.ONNX.csproj">
+      <Project>{e5d2a847-cadd-12a4-95ae-65e28aa6d051}</Project>
+      <Name>Unity.Barracuda.ONNX</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
       <Project>{5c591eca-ccd5-a31a-d8c6-d7c0a38d3972}</Project>
       <Name>Unity.VSCode.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.BurstBLAS.csproj">
+      <Project>{6ff93735-5635-567e-9b52-cccc028c13e0}</Project>
+      <Name>Unity.Barracuda.BurstBLAS</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
       <Project>{7961c493-261f-13d1-bbb8-501d5f487ddb}</Project>
@@ -682,9 +732,9 @@
       <Project>{4d282299-1934-34ba-cc05-bfdad958d77a}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{dff29aa5-0acb-8b59-9132-7dd7a9dfda3c}</Project>
-      <Name>Unity.Timeline.Editor</Name>
+    <ProjectReference Include="Unity.Barracuda.csproj">
+      <Project>{544c15d6-7d50-9752-93b7-86788953d625}</Project>
+      <Name>Unity.Barracuda</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
       <Project>{d1f84861-0adf-2cef-b9d5-cfad90860e8c}</Project>
@@ -702,9 +752,17 @@
       <Project>{3783f7b8-0533-1984-b8df-10b503d4d2bf}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Burst.Editor.csproj">
+      <Project>{5183d8c9-5c18-514c-e45e-2b810a7c3724}</Project>
+      <Name>Unity.Burst.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="VSSettingsProvider.csproj">
       <Project>{dd150668-4347-f18a-e6c8-5bdda452debc}</Project>
       <Name>VSSettingsProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.Extensions.Input.csproj">
+      <Project>{cd078279-f904-d947-0c1e-9c640bb4a0df}</Project>
+      <Name>Unity.ML-Agents.Extensions.Input</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
       <Project>{14743d2e-c980-19a2-9961-938c8076243b}</Project>
@@ -726,13 +784,53 @@
       <Project>{038a81f2-10a5-145d-4875-f1d729277850}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
+      <Project>{1bed766c-82eb-db49-0460-cf50710cae57}</Project>
+      <Name>Unity.VisualScripting.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.csproj">
+      <Project>{12a2abaa-c466-913f-6e31-e3cc755bcd35}</Project>
+      <Name>Unity.Mathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.CommunicatorObjects.csproj">
+      <Project>{8969eae9-4fd6-fce3-d899-a5dabc0fb17b}</Project>
+      <Name>Unity.ML-Agents.CommunicatorObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Burst.csproj">
+      <Project>{60e6a749-5e4a-377d-7175-b8f39500cbff}</Project>
+      <Name>Unity.Burst</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.Extensions.csproj">
+      <Project>{d0afbf63-945a-5dc2-3d4b-15a0bb5ad4a1}</Project>
+      <Name>Unity.ML-Agents.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.ML-Agents.Extensions.Editor.csproj">
+      <Project>{be2923f5-ac62-8658-c448-9f546cac1bfb}</Project>
+      <Name>Unity.ML-Agents.Extensions.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Timeline.Editor.csproj">
+      <Project>{dff29aa5-0acb-8b59-9132-7dd7a9dfda3c}</Project>
+      <Name>Unity.Timeline.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
+      <Project>{230389e1-b999-2d20-13e0-0c4033f76437}</Project>
+      <Name>Unity.Mathematics.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.Editor.csproj">
+      <Project>{97bdb921-ad59-b882-7bfe-6ff0be633e39}</Project>
+      <Name>Unity.Barracuda.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Barracuda.MacBLAS.csproj">
+      <Project>{697b49e1-597d-e526-5634-7758d6281c13}</Project>
+      <Name>Unity.Barracuda.MacBLAS</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{b7bbd946-b189-caf5-9f4e-1dcd3c3f721e}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{1bed766c-82eb-db49-0460-cf50710cae57}</Project>
-      <Name>Unity.VisualScripting.Core</Name>
+    <ProjectReference Include="Unity.ML-Agents.Editor.csproj">
+      <Project>{960c5898-04d4-b73f-f8d1-768c0be8197f}</Project>
+      <Name>Unity.ML-Agents.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

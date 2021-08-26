@@ -6,11 +6,13 @@ TagManager:
   tags:
   - Friendly
   - Fuel
+  - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Rocket
   - Water
   - UI
   - 

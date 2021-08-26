@@ -1,0 +1,38 @@
+{
+    "ProjectBoost": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results/test/ProjectBoost/ProjectBoost-499998.onnx",
+                "reward": -9.944677484745625,
+                "creation_time": 1629536920.6799722,
+                "auxillary_file_paths": [
+                    "results/test/ProjectBoost/ProjectBoost-499998.pt"
+                ]
+            },
+            {
+                "steps": 500001,
+                "file_path": "results/test/ProjectBoost/ProjectBoost-500001.onnx",
+                "reward": -9.944677484745625,
+                "creation_time": 1629536920.744996,
+                "auxillary_file_paths": [
+                    "results/test/ProjectBoost/ProjectBoost-500001.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500001,
+            "file_path": "results/test/ProjectBoost.onnx",
+            "reward": -9.944677484745625,
+            "creation_time": 1629536920.744996,
+            "auxillary_file_paths": [
+                "results/test/ProjectBoost/ProjectBoost-500001.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}

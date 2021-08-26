@@ -1,0 +1,65 @@
+{
+    "ProjectBoost": {
+        "checkpoints": [
+            {
+                "steps": 499973,
+                "file_path": "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-499973.onnx",
+                "reward": 6.547660049438477,
+                "creation_time": 1629764166.8015711,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-499973.pt"
+                ]
+            },
+            {
+                "steps": 999968,
+                "file_path": "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-999968.onnx",
+                "reward": 20.281459743912155,
+                "creation_time": 1629764575.195551,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-999968.pt"
+                ]
+            },
+            {
+                "steps": 1499984,
+                "file_path": "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-1499984.onnx",
+                "reward": 15.970875467572894,
+                "creation_time": 1629764980.7377,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-1499984.pt"
+                ]
+            },
+            {
+                "steps": 1999993,
+                "file_path": "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-1999993.onnx",
+                "reward": 31.313028703762008,
+                "creation_time": 1629765384.87795,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-1999993.pt"
+                ]
+            },
+            {
+                "steps": 2000036,
+                "file_path": "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-2000036.onnx",
+                "reward": 31.151025459217347,
+                "creation_time": 1629765384.949089,
+                "auxillary_file_paths": [
+                    "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-2000036.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2000036,
+            "file_path": "results/ProjectBoost-2M/ProjectBoost.onnx",
+            "reward": 31.151025459217347,
+            "creation_time": 1629765384.949089,
+            "auxillary_file_paths": [
+                "results/ProjectBoost-2M/ProjectBoost/ProjectBoost-2000036.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1"
+    }
+}
